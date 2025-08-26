@@ -61,7 +61,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Xamk Game Studios",
         productName: "SwedishDyslexiaApplication",
-        productVersion: "0.2.3",
+        productVersion: "0.2.7",
         showBanner: unityShowBanner,
       };
 
@@ -90,6 +90,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
         document.querySelector("#unity-container").className = "unity-mobile";
         canvas.className = "unity-mobile";
+        document.querySelector("#unity-fullscreen-button").style.display = 'none';
 
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
